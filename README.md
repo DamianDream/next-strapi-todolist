@@ -15,13 +15,13 @@ Created by Batalshikov Dima via exchange coffee to code
   git clone https://github.com/DamianDream/next-strapi-todolist.git
 ```
 
-2. In the IDE or terminal check is you located in project root folder and then run `setup`:
+2. In the root folder, using terminal `setup`:
    Script will run installation "yarn" & all required dependencies:
 ```bash
   yarn setup
 ```
 
-3. Next important, you should create `.env` file in the Backend root folder, and add data that I provide you below.
+3. In the `BACKEND` folder, in its root create `.env` file and add data that I provide below.
 ```dotenv
 HOST=0.0.0.0
 PORT=1337
@@ -34,29 +34,26 @@ DATABASE_CLIENT=sqlite
 DATABASE_FILENAME=.tmp/data.db
 JWT_SECRET=SXg6himY0jC/4nMNfG1JJg==
 ```
-
+---
 File location you can find on screenshot below.
 ![demo_screenshot_env.jpg](frontend%2Fpublic%2Fassets%2Fdemo_screenshot_env.jpg)
 
-
-4. In the project root folder you can ask Yarn run `dev` command to start frontend and backend: <br>
-`"dev": "yarn clear && concurrently \"cd frontend && yarn dev:turbo\" \"cd backend && yarn develop\""`
+4. In the `BACKEND` folder run `develop` script to start Strapi CMS: <br>
 ```bash
-  yarn dev  
+  yarn develop
 ```
 
-4. For start using Strapi you should create admin profile<br>
-    Fill free to use random credentials:<br>
+5. For start using Strapi you should create admin profile<br>
    - #### login: mail@gmail.com<br>
    - #### password: Password1<br>
 ```bash
   http://localhost:1337/admin/
 ```
-4.1 create profile
+6. Create profile
 ![strapi_step_1.jpg](frontend%2Fpublic%2Fassets%2Fstrapi_step_1.jpg)
 <br>
 <br>
-- 4.2 Follow the green arrow and do next: <br>
+7. Follow the green arrow and do next: <br>
     - open `Settings` <br>
     - open `Roles` for users and choose `Public` <br>
     - find our demo database (collection) `Strapitodo` and mask all `Select all` <br>
@@ -64,15 +61,19 @@ File location you can find on screenshot below.
 ![strapi_step_2jpg.jpg](frontend%2Fpublic%2Fassets%2Fstrapi_step_2jpg.jpg)
 <br>
 <br>
-- 4.3
-Check the existing predefined collection `strapitodo`
+8. Check the existing predefined collection `strapitodo`
 You can find more info and documentation about this wonderful CMS via link https://docs.strapi.io/dev-docs/quick-start
 <br>
 <br>
 ![demo_screenshot_content.jpg](frontend%2Fpublic%2Fassets%2Fdemo_screenshot_content.jpg)
 <br>
 <br>
-5. After Yarn finish installation we can manage to set up admin profile you ready to go! <br>
+9. After configuration "Strapi" In the `PROJECT ROOT folder` run `dev` script to start frontend and backend: <br>
+```bash
+  yarn dev  
+```
+
+10. You ready to go and try my Next Todo List App <br>
    http://localhost:3000/
 ![demo_screenshot_app.jpg](frontend%2Fpublic%2Fassets%2Fdemo_screenshot_app.jpg)
 ! Please note: app build with "Turbopack" instead "Webpack"
