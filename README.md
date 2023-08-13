@@ -57,10 +57,11 @@ File location you can find on screenshot below.
     - open `Settings` <br>
     - open `Roles` for users and choose `Public` <br>
     - find our demo database (collection) `Strapitodo` and mask all `Select all` <br>
-    - Save <br><br>
+    - Save <br>
+<br>
+
 ![strapi_step_2jpg.jpg](frontend%2Fpublic%2Fassets%2Fstrapi_step_2jpg.jpg)
-<br>
-<br>
+
 8. Check the existing predefined collection `strapitodo`
 You can find more info and documentation about this wonderful CMS via link https://docs.strapi.io/dev-docs/quick-start
 <br>
