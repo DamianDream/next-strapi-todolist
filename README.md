@@ -78,9 +78,5 @@ You can find more info and documentation about this wonderful CMS via link https
 ![demo_screenshot_app.jpg](frontend%2Fpublic%2Fassets%2Fdemo_screenshot_app.jpg)
 ! Please note: app build with "Turbopack" instead "Webpack"
 Personally I find it very fast. Yoy can change it in the package.json (frontend), just remove `--turbo` inline `dev` script <br>
-![demo_screenshot_script.jpg](frontend%2Fpublic%2Fassets%2Fdemo_screenshot_script.jpg) <br>
----
-link on Turbopack: 
-https://nextjs.org/docs/architecture/turbopack
-
+<br>
 If you have any question please feel free to ask or create issue in GitHub repo 😎
