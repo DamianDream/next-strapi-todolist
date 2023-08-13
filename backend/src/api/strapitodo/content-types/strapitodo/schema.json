@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "strapitodos",
+  "info": {
+    "singularName": "strapitodo",
+    "pluralName": "strapitodos",
+    "displayName": "strapitodo",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "textvalue": {
+      "type": "text"
+    },
+    "complete": {
+      "type": "boolean"
+    }
+  }
+}
